@@ -49,7 +49,7 @@ for (contador = 0; contador < qntPassageiros; contador++) {
 let valorRefeicao
 
 paradas = console.log(funcoes.paradas(passageiros, ))
-
 valorRefeicao = console.log(funcoes.valorRefeicao(paradas, passageiros))
+//oi
 
 
