@@ -52,8 +52,9 @@ function valorRefeicao(paradas, passageiros) {
     let contador = 0
 
     for (let index = 0; index < paradas; index++) {
+        
         if(index = 0){
-           for (let index2 = 0; index2 < array.length; index2++) {
+           for (let index2 = 0; index2 < passageiros.length; index2++) {
                 if(passageiros[index2] == "sim"){
                     valorTotal = valorTotal + 40
                 }else{
@@ -63,7 +64,7 @@ function valorRefeicao(paradas, passageiros) {
         }
 
         if(contador != 2){
-            for (let index2 = 0; index2 < array.length; index2++) {
+            for (let index2 = 0; index2 < passageiros.length; index2++) {
                 if(passageiros[index2] == "sim"){
                     valorTotal = valorTotal + 20
                 }else{
@@ -75,7 +76,7 @@ function valorRefeicao(paradas, passageiros) {
 
         if(contador == 2){
             
-            for (let index2 = 0; index2 < array.length; index2++) {
+            for (let index2 = 0; index2 < passageiros.length; index2++) {
                 if(passageiros[index2] == "sim"){
                     valorTotal = valorTotal + 40
                 }else{
